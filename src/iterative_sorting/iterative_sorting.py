@@ -22,7 +22,7 @@ def selection_sort(arr):
 def bubble_sort(arr):
     # Your code here
     #start value(last element)= len(arr)-1(which is 
-    #the full length, python counts from 1 an up an asked about 
+    #the full length, because python counts from 1 an up an asked about 
     #the length but starts from 0 when iterating through it)
     #end value(going to be the list element)= 0
     for i in range(len(arr)-1, 0, -1):
